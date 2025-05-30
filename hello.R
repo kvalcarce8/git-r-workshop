@@ -5,8 +5,8 @@ calc_incidence_rate &lt;- function(cases, population) {
   (cases / population) * 100000
 }
 # Sample input
-cases &lt;- 50
-population &lt;- 120000
+cases &lt;- 60
+population &lt;- 10000
 # Calculate and print result
 rate &lt;- calc_incidence_rate(cases, population)
 cat(&quot;Incidence rate per 100,000 people is:&quot;, round(rate, 2), &quot;\n&quot;)
